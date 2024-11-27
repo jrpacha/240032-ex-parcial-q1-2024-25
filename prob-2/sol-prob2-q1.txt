@@ -1,0 +1,29 @@
+MN P2 ExParcial 1Q 2024-25
+Question 1
+
+Consider the triangular mesh meshMontseny.mat that you have available in this folder.
+The mesh is from the Montseny Natural Park, with units (the positions of the nodes) in
+kilometers. Consider the point P = (5.0, 2.0).
+
+(a) (3 points) The mean of the x-component of the element containig P is:
+
+    Sol. <x> = 4.9979e+00
+
+    Hint. The mean of the y-component of the element containig P is: <y> = 2.0486e+00
+
+(b) (3 points) If the point Q is the barycenter of element 3999, de distance between P
+    and Q is:
+
+    Sol. dist(P, Q) = 6.2855e+00
+
+(c) (2 points) Let us consider the point R = (8.0,6.0). If the temperature at points P,
+    Q, and R is T(P) = 18.7, T(Q) = 17.6, T(R) = 17.2, what will be the interpolated
+    temperature at point S = (5.0,5.0)?
+
+    Sol. Interpolated temperature at S: 1.8042e+01
+
+(d) (2 points) In a book, we saw that the surface of the Natural Park is S = 300.0 km^2.
+    What is the relative error of the area defined by our mesh if we take S as the true
+    value?
+
+    Sol. Relative Error = |Measured Value - True Value| / |True Value| = 3.5486e-02
