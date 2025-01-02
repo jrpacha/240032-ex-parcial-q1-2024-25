@@ -223,5 +223,8 @@ TSWLatexianTemp*
 # expex forward references with \gathertags
 *-tags.tex
 
-#Matlab
+# Matlab
 *.asv
+
+# Exclude DS_Store: Desktop Services Store (macOS)
+.DS_Store
